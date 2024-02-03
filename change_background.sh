@@ -3,7 +3,7 @@
 
 echo "name of background picture:"
 read backgroundName
-basePath="/$backgroundName"
+basePath="your Path to the folder/$backgroundName"
 formats=("jpg" "jpeg" "png")
 for format in "${formats[@]}"; do
     backgroundPath="$basePath.$format"
